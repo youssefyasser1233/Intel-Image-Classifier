@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Intel Image Classifier</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Intel Image Classifier</h1>
+
+        <p>Upload an image and let the AI classify it.</p>
+
+        <input type="file" id="imageInput" accept="image/*">
+
+        <br><br>
+
+        <img id="preview" src="" alt="Image Preview">
+
+        <br><br>
+
+        <button id="predictBtn">
+            Predict
+        </button>
+
+        <br><br>
+
+        <h2 id="prediction"></h2>
+
+        <h3 id="confidence"></h3>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>

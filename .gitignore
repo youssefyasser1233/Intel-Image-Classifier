@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+.ipynb_checkpoints/
+
+Intel dataset.zip
+
+.venv/
+venv/
+
+.env
+
+.DS_Store
+Thumbs.db
