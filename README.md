@@ -5,7 +5,7 @@ This project is a deep learning-based image classification system that classifie
 ---
 
 ## 🚀 Features
-- CNN-based image classification model (PyTorch / TensorFlow depending on your implementation)
+- CNN-based image classification model (PyTorch)
 - Web interface for uploading images
 - Real-time prediction results
 - Trained on Intel Image Dataset
